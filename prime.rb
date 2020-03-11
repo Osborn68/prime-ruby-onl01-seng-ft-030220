@@ -1,9 +1,8 @@
-# Addef prime?(num)
+#  prime?(num)
   range = (2..num-1) to.a
     if num <= 0 || num == 1
       return false
     elsif range.any? {|x| num % x == 0}
-      binding.pry
       return false
     else
       return true
