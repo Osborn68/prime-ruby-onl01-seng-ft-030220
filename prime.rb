@@ -1,4 +1,4 @@
-#  prime?(num)
+# def prime?(num)
   range = (2..num-1) to.a
     if num <= 0 || num == 1
       return false
